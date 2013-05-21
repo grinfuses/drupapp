@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Acceso Usuarios</title> 
+	<link rel="stylesheet"  href="../../themes/default/" /> 
+	<link rel="stylesheet" href="../_assets/css/jqm-docs.css"/>
+	<script src="../../js/jquery.js"></script>
+	<script src="../../experiments/themeswitcher/jquery.mobile.themeswitcher.js"></script>
+	<script src="../_assets/js/jqm-docs.js"></script>
+	<script src="../../js/"></script>
+	
+</head> 
+<body> 
+<div data-role="page" id="page_login">
+
+  <script type="text/javascript" charset="utf-8" src="scripts/login.js"></script>
+
+  <div data-role="header" data-theme="f">
+		<h1>Acceso usuarios</h1>
+		<a href="../index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+	</div><!-- /header -->
+
+  <div data-role="content" class='content'>
+    <div>
+      <label for="page_login_name">Nombre de usuario</label>
+      <input type="text" id="page_login_name" />
+    </div>
+    <div>
+      <label for="page_login_pass">Contraseña</label>
+      <input type="password" id="page_login_pass" />
+    </div>
+    <fieldset>
+      <div><button type="button" data-theme="b" id="page_login_submit">Acceso</button></div>
+    </fieldset>
+  </div><!-- /content -->
+
+</div><!-- /page -->
+<div data-role="footer" class="footer-docs" data-theme="c">
+			<p>&copy; 2013 Javier Naranjo</p>
+	</div>	
+</body>
+</html>

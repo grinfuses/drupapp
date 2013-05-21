@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nueva noticia</title>
+
+	<link rel="stylesheet"  href="jquery.mobile/jquery.mobile-1.1.0.css" />
+	<link rel="stylesheet" href="docs/assets/css/jqm-docs.css" />
+	<link rel="stylesheet" href="docsdemos-style-override.css" />
+	<script type="text/javascript" src="jquery.mobile/jquery-1.7.2.min"></script>
+	<script type="text/javascript" src="jquery.mobile/jquery.mobile-1.1.0.js"></script>
+	<!-- Uncomment following line to access PhoneGap APIs (not necessary to use PhoneGap to package web app) -->
+	<!-- <script type="text/javascript" charset="utf-8" src="cordova-1.6.1.js"></script>-->
+	<script type="text/javascript" charset="utf-8" src="node_create.js"></script>
+
+	
+</head> 
+<body> 
+<div data-role="page" id="page_node_create">
+
+  <script type="text/javascript" charset="utf-8" src="scripts/node_create.js"></script>
+
+  <div data-role="header" data-theme="f">
+		<h1>Nueva noticia</h1>
+		<a href="panel_de_control.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+	</div><!-- /header -->
+
+  <div data-role="content" class='content'>
+    <div>
+      <label for="page_node_name">Título</label>
+      <input type="text" id="page_node_title" />
+    </div>
+    <div>
+      <label for="page_node_body">Cuerpo</label>
+      <textarea id="page_node_body"></textarea>
+    </div>
+    <fieldset>
+      <div><button type="button" data-theme="b" id="page_node_create_submit">Enviar</button></div>
+    </fieldset>
+  </div><!-- /content -->
+
+</div><!-- /page -->
+<div data-role="footer" class="footer-docs" data-theme="c">
+			<p>&copy; 2013 Javier Naranjo</p>
+	</div>	
+</body>
+</html>
